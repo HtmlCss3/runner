@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发起订单",
+  "usingComponents": {
+    "tn-input": "/tuniao-ui/components/tn-input/tn-input",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

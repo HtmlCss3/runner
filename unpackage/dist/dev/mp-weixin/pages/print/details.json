@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup",
+    "tn-time-line": "/tuniao-ui/components/tn-time-line/tn-time-line",
+    "tn-time-line-item": "/tuniao-ui/components/tn-time-line-item/tn-time-line-item"
+  }
+}

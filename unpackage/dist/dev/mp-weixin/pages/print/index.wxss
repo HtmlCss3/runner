@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+/* 组件导航列表 start*/
+.nav-list.data-v-6b1e3307 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rpx 12rpx 0rpx;
+  justify-content: space-between;
+  /* 列表元素 start */
+  /* 列表元素 end */
+}
+.nav-list .nav-list-item.data-v-6b1e3307 {
+  padding: 95rpx 30rpx 5rpx 30rpx;
+  border-radius: 12rpx;
+  width: 45%;
+  margin: 0 18rpx 40rpx;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 99;
+  /* 元素标题 start */
+  /* 元素标题 end */
+  /* 元素图标 start */
+  /* 元素图标 end */
+}
+.nav-list .nav-list-item .nav-link.data-v-6b1e3307 {
+  font-size: 32rpx;
+  text-transform: capitalize;
+  padding: 0 0 10rpx 0;
+  position: relative;
+}
+.nav-list .nav-list-item .nav-link .title.data-v-6b1e3307 {
+  color: #FFFFFF;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.nav-list .nav-list-item .icon.data-v-6b1e3307 {
+  font-variant: small-caps;
+  position: absolute;
+  top: 20rpx;
+  right: 50rpx;
+  left: 37%;
+  width: 90rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  font-size: 50rpx;
+  color: #FFFFFF;
+  white-space: nowrap;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-size: cover;
+  background-position: 50%;
+  border-radius: 5000rpx;
+}
+/* 组件导航列表 end*/
+.tn-biangk.data-v-6b1e3307 {
+  border: 1rpx solid #d9d9d9;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  box-shadow: 5px 5rpx 5rpx #d9d9d9;
+}
+/* 胶囊*/
+.tn-custom-nav-bar__back.data-v-6b1e3307 {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 1000rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.tn-custom-nav-bar__back .icon.data-v-6b1e3307 {
+  display: block;
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+.king-list .king-icon.data-v-6b1e3307 {
+  width: 100%;
+  text-align: left;
+  padding: 20rpx;
+  font-size: 26rpx;
+  color: #888;
+  display: block;
+}
+.tn_hei.data-v-6b1e3307 {
+  color: #000;
+}
+.tn-wihu.data-v-6b1e3307 {
+  width: 100% !important;
+}
+.tn-pianyi.data-v-6b1e3307 {
+  left: 44% !important;
+}
+.tn-body.data-v-6b1e3307 {
+  padding: 40rpx;
+}
+.custom-title.data-v-6b1e3307 {
+  padding-bottom: 10rpx;
+}
+.tn-bottom.data-v-6b1e3307 {
+  padding-bottom: 10rpx;
+}
+

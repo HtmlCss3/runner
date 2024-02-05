@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的团队",
+  "usingComponents": {
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty"
+  }
+}

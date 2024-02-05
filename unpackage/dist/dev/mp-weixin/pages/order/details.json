@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单信息",
+  "usingComponents": {
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

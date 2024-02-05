@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "在线选购",
+  "usingComponents": {
+    "tn-number-box": "/tuniao-ui/components/tn-number-box/tn-number-box",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

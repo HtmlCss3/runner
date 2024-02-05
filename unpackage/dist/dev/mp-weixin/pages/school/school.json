@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择学校",
+  "usingComponents": {
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button"
+  }
+}

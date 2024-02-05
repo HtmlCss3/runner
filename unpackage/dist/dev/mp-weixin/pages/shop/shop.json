@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "校园商家",
+  "usingComponents": {
+    "tn-rate": "/tuniao-ui/components/tn-rate/tn-rate",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

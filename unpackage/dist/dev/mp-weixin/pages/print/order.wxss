@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+.wu.data-v-f82e18fa {
+  margin-top: 25vh;
+}
+.top-fixed.data-v-f82e18fa {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.25s ease-out;
+  z-index: 100;
+}
+.tn-strip-top.data-v-f82e18fa {
+  width: 100%;
+  border-top: 20rpx solid rgba(241, 241, 241, 0.8);
+}
+.order.data-v-f82e18fa {
+  /* 导航栏 start */
+  /* 导航栏 end */
+  /* 订单内容 start */
+}
+.order--wrap.data-v-f82e18fa {
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: inherit;
+}
+.order__tabs.data-v-f82e18fa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: inherit;
+}
+.order__item.data-v-f82e18fa {
+  color: #424242;
+  margin: 30rpx;
+  padding: 36rpx 26rpx;
+  border-radius: 15rpx;
+  border: 1rpx solid #dce2f3;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 15rpx;
+  /* 头部 start */
+  /* 头部 end */
+  /* 内容 start */
+  /* 内容 end */
+  /* 操作按钮 start */
+  /* 操作按钮 end */
+}
+.order__item.data-v-f82e18fa:first-child {
+  margin-top: 40rpx;
+}
+.order__item.data-v-f82e18fa:last-child {
+  margin-bottom: 0;
+}
+.order__item__head__title.data-v-f82e18fa {
+  font-weight: bold;
+  line-height: normal;
+}
+.order__item__head__title--right-icon.data-v-f82e18fa {
+  font-size: 24rpx;
+  margin-left: 8rpx;
+}
+.order__item__head__status.data-v-f82e18fa {
+  font-size: 22rpx;
+  color: #AAAAAA;
+}
+.order__item__content.data-v-f82e18fa {
+  margin-top: 20rpx;
+}
+.order__item__content__image.data-v-f82e18fa {
+  margin-right: 20rpx;
+}
+.order__item__content__image image.data-v-f82e18fa {
+  width: 80rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.order__item__content__title.data-v-f82e18fa {
+  padding-right: 40rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.order__item__content__info__price--unit.data-v-f82e18fa {
+  font-size: 20rpx;
+}
+.order__item__content__info__price__value--integer.data-v-f82e18fa, .order__item__content__info__price__value--decimal.data-v-f82e18fa {
+  font-weight: bold;
+}
+.order__item__content__info__price__value--decimal.data-v-f82e18fa {
+  font-size: 20rpx;
+}
+.order__item__content__info__count.data-v-f82e18fa {
+  color: #AAAAAA;
+  font-size: 24rpx;
+}
+.order__item__operation.data-v-f82e18fa {
+  margin-top: 20rpx;
+}
+.order__item__operation__right__button.data-v-f82e18fa {
+  margin-left: 10rpx;
+}
+/* 订单内容 end */
+

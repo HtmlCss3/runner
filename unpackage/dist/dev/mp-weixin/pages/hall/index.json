@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "接单大厅",
+  "usingComponents": {
+    "tn-tabs": "/tuniao-ui/components/tn-tabs/tn-tabs",
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

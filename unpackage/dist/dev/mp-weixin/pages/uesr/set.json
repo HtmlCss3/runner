@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "修改用户信息",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tn-nav-bar": "/tuniao-ui/components/tn-nav-bar/tn-nav-bar",
+    "tn-image-upload": "/tuniao-ui/components/tn-image-upload/tn-image-upload",
+    "tn-modal": "/tuniao-ui/components/tn-modal/tn-modal",
+    "tn-button": "/tuniao-ui/components/tn-button/tn-button"
+  }
+}

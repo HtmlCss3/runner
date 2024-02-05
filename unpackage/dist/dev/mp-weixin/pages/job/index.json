@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "兼职大厅",
+  "usingComponents": {
+    "tn-empty": "/tuniao-ui/components/tn-empty/tn-empty",
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips"
+  }
+}

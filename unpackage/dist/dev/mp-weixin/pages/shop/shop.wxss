@@ -1,0 +1,226 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+.wu.data-v-71bf3ec6 {
+  margin-top: 25vh;
+}
+/* 简历内容 */
+.king-list.data-v-71bf3ec6 {
+  display: block;
+}
+.king-list .king-icon.data-v-71bf3ec6 {
+  width: 100%;
+  text-align: left;
+  padding: 20rpx 0 20rpx 37rpx;
+  font-size: 26rpx;
+  color: #888;
+  display: block;
+}
+.king-list > .king-item.data-v-71bf3ec6 {
+  padding: 30rpx 30rpx 30rpx 120rpx;
+  position: relative;
+  display: block;
+  z-index: 0;
+}
+.king-list > .king-item.data-v-71bf3ec6::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1rpx;
+  background-color: #E6E6E6;
+  left: 60rpx;
+  height: 100%;
+  top: 0;
+  z-index: 8;
+}
+.king-list > .king-item.data-v-71bf3ec6::before {
+  display: block;
+  position: absolute;
+  top: 36rpx;
+  z-index: 9;
+  background-color: #ffffff;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  border: none;
+  line-height: 50rpx;
+  left: 36rpx;
+}
+/* 名片微调 */
+.img-solid.data-v-71bf3ec6 {
+  border: 1rpx solid #eee;
+}
+.share-img.data-v-71bf3ec6 {
+  position: fixed;
+  /* padding: 10rpx; */
+  width: 100rpx;
+  height: 100rpx;
+  /* top: 680rpx; */
+  bottom: 200rpx;
+  right: 20rpx;
+  z-index: 1024;
+  opacity: 0.8;
+  box-shadow: 0rpx 8rpx 30rpx 0rpx rgba(0, 0, 0, 0.3);
+  border: none;
+  border: 6rpx solid rgba(255, 255, 255, 0);
+}
+.resume.data-v-71bf3ec6 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rpx;
+  border-radius: 6rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.resume + .resume.data-v-71bf3ec6 {
+  margin-top: 20rpx;
+}
+.resume2.data-v-71bf3ec6 {
+  padding-top: 10rpx;
+  border-radius: 6rpx;
+  display: block;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+}
+/* 间隔线 start*/
+.tn-strip-bottom.data-v-71bf3ec6 {
+  width: 100%;
+  border-bottom: 20rpx solid rgba(241, 241, 241, 0.8);
+}
+/* 间隔线 end*/
+.bg-img-cont.data-v-71bf3ec6 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350rpx;
+  margin: 20rpx 0;
+  border-radius: 8rpx;
+}
+/* 标签内容 start*/
+.tn-tag-content__item.data-v-71bf3ec6 {
+  display: inline-block;
+  line-height: 35rpx;
+  color: #1D2541;
+  background-color: #F3F2F7;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  padding: 5rpx 15rpx;
+}
+.tn-tag-content__item--prefix.data-v-71bf3ec6 {
+  padding-right: 10rpx;
+}
+/* 标签内容 end*/
+.see.data-v-71bf3ec6 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rpx;
+  border-radius: 6rpx;
+  color: #666;
+  line-height: 1.6;
+}
+@-webkit-keyframes tiger-data-v-71bf3ec6 {
+0%,
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+50% {
+    -webkit-transform: translate(-0.8rem, 1rem);
+            transform: translate(-0.8rem, 1rem);
+}
+}
+@keyframes tiger-data-v-71bf3ec6 {
+0%,
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+50% {
+    -webkit-transform: translate(-0.8rem, 1rem);
+            transform: translate(-0.8rem, 1rem);
+}
+}
+.login.data-v-71bf3ec6 {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  /* 背景图片 start */
+}
+.login__bg.data-v-71bf3ec6 {
+  z-index: -1;
+  position: fixed;
+}
+.login__bg--top.data-v-71bf3ec6 {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.login__bg--top .bg.data-v-71bf3ec6 {
+  width: 750rpx;
+  will-change: transform;
+}
+.login__bg--top .rocket.data-v-71bf3ec6 {
+  margin: 50rpx 30%;
+  width: 300rpx;
+  will-change: transform;
+}
+.login__bg--bottom.data-v-71bf3ec6 {
+  bottom: -10rpx;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.login__bg--bottom image.data-v-71bf3ec6 {
+  width: 750rpx;
+  will-change: transform;
+}
+/* 背景图片 end */
+.article-shadow.data-v-71bf3ec6 {
+  border-radius: 15rpx;
+  box-shadow: 0rpx 0rpx 50rpx 0rpx rgba(0, 0, 0, 0.07);
+}
+/* 资讯主图 start*/
+.image-article.data-v-71bf3ec6 {
+  border-radius: 8rpx;
+  border: 1rpx solid #F8F7F8;
+  width: 160rpx;
+  height: 160rpx;
+  position: relative;
+}
+.image-pic.data-v-71bf3ec6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-radius: 10rpx;
+}
+/* 文字截取*/
+.clamp-text-1.data-v-71bf3ec6 {
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.clamp-text-2.data-v-71bf3ec6 {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 标签内容 start*/
+.tn-tag-content.data-v-71bf3ec6 {
+  padding-right: 10rpx;
+  display: inline-block;
+  line-height: 35rpx;
+  padding: 5rpx 25rpx;
+}
+.zhityanse.data-v-71bf3ec6 {
+  color: #3D7EFF !important;
+}
+

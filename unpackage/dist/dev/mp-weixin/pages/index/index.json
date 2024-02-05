@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "你吩咐、我跑腿",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tn-tips": "/tuniao-ui/components/tn-tips/tn-tips",
+    "tn-popup": "/tuniao-ui/components/tn-popup/tn-popup"
+  }
+}

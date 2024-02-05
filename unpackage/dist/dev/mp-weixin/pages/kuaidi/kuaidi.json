@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学校快递商家",
+  "usingComponents": {
+    "tn-input": "/tuniao-ui/components/tn-input/tn-input"
+  }
+}

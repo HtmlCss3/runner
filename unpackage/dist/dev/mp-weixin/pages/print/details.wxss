@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为Tuniao UI的集成样式文件，为scss预处理器，其中包含了一些"tn-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * Tuniao UI自定义的css类名和scss变量，均以"tn-"开头，不会造成冲突，请放心使用 
+ */
+.tn-strip-top.data-v-dbcfdd92 {
+  width: 100%;
+  border-top: 20rpx solid rgba(241, 241, 241, 0.8);
+}
+.xuan.data-v-dbcfdd92 {
+  background-color: #ffaa7f;
+  color: #fff;
+  padding: 5rpx 20rpx;
+  margin: 0 10rpx;
+  border-radius: 10rpx;
+}
+.wei.data-v-dbcfdd92 {
+  background-color: #949494;
+  color: #fff;
+  padding: 5rpx 20rpx;
+  margin: 0 10rpx;
+  border-radius: 10rpx;
+}
+.zhushi.data-v-dbcfdd92 {
+  padding: 0 30rpx;
+  color: #ffaa7f;
+  padding-bottom: 10rpx;
+}
+.daxia.data-v-dbcfdd92 {
+  font-size: 35rpx;
+}
+.xiantia.data-v-dbcfdd92 {
+  border-bottom: 1rpx solid #949494;
+}
+.tn-time-line-class .tn-time-line-item-class:first-child .tn-time-line-item__node .time-line-item__node.data-v-dbcfdd92 {
+  background-color: #01BEFF !important;
+}
+.time-line__wrap.data-v-dbcfdd92 {
+  padding: 30rpx;
+}
+.time-line-item__node.data-v-dbcfdd92 {
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AAAAAA;
+}
+.time-line-item__node--active.data-v-dbcfdd92 {
+  background-color: #01BEFF;
+}
+.time-line-item__node--icon.data-v-dbcfdd92 {
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.time-line-item__content__title.data-v-dbcfdd92 {
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.time-line-item__content__desc.data-v-dbcfdd92 {
+  color: #AAAAAA;
+  font-size: 28rpx;
+  margin-bottom: 6rpx;
+}
+.time-line-item__content__time.data-v-dbcfdd92 {
+  color: #E6E6E6;
+  font-size: 26rpx;
+}
+.yanshi.data-v-dbcfdd92 {
+  color: #AAAAAA;
+  margin-top: 5rpx;
+  font-size: 26rpx;
+}
+
